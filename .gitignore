@@ -44,7 +44,6 @@ $RECYCLE.BIN/
 .env
 .vagrant
 Vagrantfile
-env
 
 #-------------------------
 # Temporary Files
@@ -125,4 +124,6 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
+
+/html
 

@@ -10,34 +10,28 @@
     <div class="container clearfix">
 
         <div class="col_one_fifth nobottommargin">
-            <img src="<?=base_url();?>/images/footer-logo.png" alt="" class="footer-logo">
+            <img src="<?=base_url("images/footer-logo.png");?>" alt="" class="footer-logo">
         </div>
 
         <div class="col_four_fifth col_last tright nobottommargin">
             <div class="copyrights-menu copyright-links fright clearfix">
-                <a href="#">Home</a>/
-                <a href="#">Garage Doors</a>/
-                <a href="#">Door Automation</a>/
-                <a href="#">Gate Automation</a>/
-                <a href="#">Other Services</a>/
-                <a href="#">Projects</a>/
-                <a href="#">Manuals</a>/
-                <a href="#">About Us</a>
+                <a href="<?=base_url();?>">Home</a>/
+                <a href="<?=base_url("gallery/garagedoors");?>">Garage Doors</a>/
+                <a href="<?=base_url("gallery/doorautomation");?>">Door Automation</a>/
+                <a href="<?=base_url("gallery/gateautomation");?>">Gate Automation</a>/
+                <a href="<?=base_url("manuals");?>">Manuals</a>/
+                <a href="<?=base_url("about");?>">About</a>/
+                <a href="<?=base_url("contact");?>">Contact</a>
                 <br>
-                <span style="font-weight: normal;">Copyrights &copy; 2018 All Rights Reserved by TightFit Garage Doors & Automation.</span>
+                <span style="font-weight: normal;">Copyrights &copy; <?=date("Y");?> All Rights Reserved by TightFit Garage Doors & Automation.</span>
             </div>
-            <div class="fright clearfix">
-                <a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
+            <div class="fright clearfix" style="clear: both;">
+                <a href="https://www.facebook.com/tightfitgaragedoors" class="social-icon si-small si-borderless nobottommargin si-facebook">
                     <i class="icon-facebook"></i>
                     <i class="icon-facebook"></i>
                 </a>
 
-                <a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
-                    <i class="icon-twitter"></i>
-                    <i class="icon-twitter"></i>
-                </a>
-
-                <a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
+                <a href="https://www.linkedin.com/in/tight-fit-garage-doors-home-automation-hermanus-42b4537b/" class="social-icon si-small si-borderless nobottommargin si-linkedin">
                     <i class="icon-linkedin"></i>
                     <i class="icon-linkedin"></i>
                 </a>

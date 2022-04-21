@@ -126,4 +126,5 @@ nb-configuration.xml
 /.phpunit.*.cache
 
 /html
+/holding_page
 

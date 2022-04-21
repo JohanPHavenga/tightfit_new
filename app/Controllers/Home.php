@@ -13,4 +13,20 @@ class Home extends BaseController
         echo view('home', $data);
         echo view('templates/footer', $data);
     }
+
+    public function about()
+    {
+        $data=[];
+        echo view('templates/header', $data);
+        echo view('about', $data);
+        echo view('templates/footer', $data);
+    }
+
+    public function manuals()
+    {
+        $data=[];
+        echo view('templates/header', $data);
+        echo view('manuals', $data);
+        echo view('templates/footer', $data);
+    }
 }

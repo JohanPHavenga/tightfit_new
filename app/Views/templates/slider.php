@@ -14,7 +14,7 @@
                 <div class="container clearfix d-none d-md-block">
                     <div class="slider-caption">
                         <h2>TightFit Automation</h2>
-                        <p class="d-none d-sm-block">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
+                        <p class="d-none d-sm-block">Door and Gate automation to fit any need</p>
                     </div>
                 </div>
             </div>

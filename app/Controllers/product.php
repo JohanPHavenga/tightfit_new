@@ -1,12 +1,12 @@
 <?php
-
 namespace App\Controllers;
 
-class Gallery extends BaseController
+class Product extends BaseController
 {
 
     public function index()
     {
+        wts("hallo",1);
         $data = [];
         echo view('templates/header', $data);
         echo view('gallery', $data);
@@ -38,6 +38,12 @@ class Gallery extends BaseController
 
     public function doorautomation($type)
     {
+        // kryh dokumente in uplods folder
+        $file_arr = get_filenames("uploads");     
+        wts($file_arr,1);
+		sort($file_arr);	
+        $this->data_to_view["file_arr"]=$file_arr;
+
         //return view('home');
         $data = [
             "automation_type" => $type,
